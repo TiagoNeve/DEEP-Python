@@ -107,3 +107,17 @@ for num in range(65, 91):
     capital_letters.append(chr(num))
 
 print(capital_letters)
+
+# Compreensão de lista - Formas de declarar lista, mas de forma resumida
+print([chr(num) for num in range(65, 91)])
+
+# Código sem compreensão de lista
+vowels = []
+for letter in 'awesome':
+    if letter in ['a', 'e', 'i', 'o', 'i']:
+        vowels.append(letter)
+
+print(vowels)
+
+# Código com compreensão de lista
+print([letter for letter in 'awesome' if letter in ['a', 'e', 'i', 'o', 'u']])
