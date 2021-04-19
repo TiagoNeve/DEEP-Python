@@ -54,3 +54,12 @@ print(l)
 # Sort - Organiza a lista em ordem crescente, isso muda a lista.
 l.sort()
 print(l)
+
+# Slicing lists
+# Retorna algumas partes da lista, dependendo do range que for
+# solicitado. Não muda a lista, apenas retorna os valores dos ranges
+# list[start:end:step]
+l[::-1]  # Retorna a lista ao contrário
+l[::-2]  # Retorna a lista ao inverso de dois em dois
+l[:5]  # Retorna do ínicio até o index 5
+l[4:]  # Retorna a lista do indice 4 até o final
