@@ -63,3 +63,47 @@ l[::-1]  # Retorna a lista ao contrário
 l[::-2]  # Retorna a lista ao inverso de dois em dois
 l[:5]  # Retorna do ínicio até o index 5
 l[4:]  # Retorna a lista do indice 4 até o final
+
+# Interação de listas e compreensão
+
+# for in -> Interação de listas.
+values = [1, 2, 3, 4]
+
+for val in values:
+    print(val)
+
+for char in "awesome":
+    print(char)
+
+    # As vezes é necessário utilizar o index e o valor da lista,
+    # Para isso utiliza-se a função enumerate() com a lista como
+    # argumento.
+
+for idx, char in enumerate("awesome"):
+    print(idx, char)
+
+# while
+i = 0
+while i < 5:
+    print(i)
+    i += 1
+
+# Continue and break
+
+for num in [1, 2, 3, 4, 5, 6, 7]:
+    if num % 2 == 0:
+        continue  # Pula uma interação
+    elif num > 5:
+        break  # Sai da interação
+    print(num)
+
+# Range -> range(start, stop, step), o stop não é contabilizado.
+for num in range(4, 10):
+    print(num)
+
+# chr -> Transforma um número ASCII em caracteres dessa tabela.
+capital_letters = []
+for num in range(65, 91):
+    capital_letters.append(chr(num))
+
+print(capital_letters)
