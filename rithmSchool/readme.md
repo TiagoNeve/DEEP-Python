@@ -84,3 +84,28 @@
     Para evitar o usu de format, você pode definir o f"string", que 
     basta declarar um f antes da string e usar a interpolação como
     o format.
+
+## Lógica booleana
+* Lógica booleana
+    Utiliza de condicionais para determinar se uma questão é válida
+    ou não, se for válida executa um bloco de comandos, se não 
+    faz algo ou não.
+    Python também permite as comparações lógicas utilizando or, and,
+    not. ==, !=, >, <, >=, <= 
+    A indentação é muito importante para o python, caso ela não
+    seja cumprida na verificação de condicionais o código não
+    será gerado.
+* Comparação entre is e == 
+    is verifica se uma determinada variável está compartilhando o 
+    mesmo espaço da memória que outra.
+    == verifica se as variáveis possuem o mesmo valor.
+* Pegando o input do usuário
+    Para pegar um input do usuário deve-se usar a função input.
+* Passando um bloco de código
+    Em alguns casos não é necessário ter um código em um local 
+    identado, portanto para que não gere um erro de identation, 
+    utilize a palavra reservada pass. Assim o compilador vai passar
+    o bloco de código com identação.
+
+## Exercícios de lógica booleana
+    Arquivo exercícicos com todas as respostas.

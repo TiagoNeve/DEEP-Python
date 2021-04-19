@@ -83,3 +83,28 @@ mood = "muito bem"
 greeting = f"Olá, meu nome é {first_name} {last_name}, eu moro em" \
     f" {city} e estou {mood}"
 print(greeting)
+
+# Lógica booleana.
+user = 'Tiago'
+
+if user == 'Tiago':
+    print('Incrível')
+elif user == 'Tom':
+    print('Legal')
+else:
+    print('Não')
+
+# is versus ==
+a = 1
+b = a
+print(b is a)
+print(id(b))
+print(id(a))
+b = 2
+print(b is a)
+print(id(b))
+print(id(a))
+
+# Inputs
+
+user_name = input('Qual o seu nome ?')
