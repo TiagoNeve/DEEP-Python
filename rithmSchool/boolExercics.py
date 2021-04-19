@@ -29,3 +29,43 @@ def test_tres():
 
 
 linha()
+print("04")
+if 1 < 2 < 4:
+    _04 = "Math is fun."
+
+
+def test_quatro():
+    assert _04 == "Math is fun."
+
+
+linha()
+print("05")
+nope = None
+
+
+def test_cinco():
+    assert nope == None
+
+
+linha()
+print("06")
+if True and False:
+    print("Impossível entrar aqui")
+else:
+    print("Entrei.")
+linha()
+print("07")
+num = 0
+for i in "What's my length?":
+    num = num + 1
+
+print(num)
+
+
+def test_sete():
+    assert num == 17
+
+
+linha()
+print("08")
+print("i am shouting".upper())
