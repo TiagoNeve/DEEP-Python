@@ -48,4 +48,39 @@
     diferentes de dados a qualquer momento, porém somar tipos 
     diferentes irá gerar um erro.
     Desta forma python é dinamicamente tipada e fortemente tipada
-    
+
+## Strings
+* Strings em python
+    Uma string no python é um conjunto de caracteres, é possível 
+    usar um loop para para mostrar cada caractere de uma string.
+    Também é possível definir strings multilinhas usando \ ao fim da
+    linha.
+    Strins no python não podem ser imutáveis diretamente.
+* Unicode vs ASCII
+    Em python2 as strings eram usadas em ASCII, mas no python3 essas
+    strings passaram a serem usadas em Unicode.
+    ASCII -> Não reconhece tantos caracteres,
+    Unicode -> Reconhece todos os caracteres e emojis.
+* Métodos strings
+    .upper() -> Coloca todos os caracteres em maiusculas
+    .lower() -> Coloca todos os caracteres em minusculas
+    .capitalize() -> Coloca a primeira letra em maiusculo.
+    .title() -> Todas as palavras ficam com a letra maiúscula
+    .find() -> Procura na string a primeira ocorrência da string
+    desejada e caso não encontre retorna -1.
+    .isalpha() -> Verifica se todos os caracteres de uma string é
+    alfabética. Return bool
+    .isspace() -> Verifica se todos os caractes são espaços vazios.
+    Return bool
+    .islower() -> Verifica se todos os caracteres são minusculos.
+    .istitle() -> Verifica se a string está em modo title.
+    .endswith() -> Verifica se uma string termina com determinada
+    strin passada como argumento.
+    .partition() -> Separa a string em 3 itens de uma tupla 
+    definindo o separador como argumento.
+* Interpolação de strins com Strings formatadas.
+    .format() -> Método muito usado para juntar strings em outras
+    strings.
+    Para evitar o usu de format, você pode definir o f"string", que 
+    basta declarar um f antes da string e usar a interpolação como
+    o format.
